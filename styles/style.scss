@@ -24,11 +24,12 @@ button:hover {
 #results {
 	margin-top: 50px;
 	background: rgba(255,255,255,.25);
-	min-width: 550px;
-	min-height: 200px;
+	min-width: 300px;
+	min-height: 100px;
+  max-width: 400px;
 	display: none;
 	font-family: sans-serif;
-	font-size: 40px;
+	font-size: 35px;
 	color: white;
 	justify-content: center;
 	align-items: center;
