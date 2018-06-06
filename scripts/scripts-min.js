@@ -32,6 +32,7 @@ const landingSites = [
   'Haunted House',
   'Super Hideout',
   'Loot Lake North',
+  'Container Yard'
 ]
 
 const whereWeLandingBoys = () => {
