@@ -37,8 +37,8 @@ const landingSites = [
 const whereWeLandingBoys = () => {
 	let answer = '';
   console.log('\n', '\n');
-  // let randNum = Math.floor(Math.random()* (landingSites.length - 1));
-	let randNum = 6;
+  let randNum = Math.floor(Math.random()* (landingSites.length - 1));
+	// let randNum = 6;
   if (randNum === 6) {
 		return "You're Fucked. Land at " + landingSites[randNum];
     console.log("You're Fucked. Land at", landingSites[randNum])
