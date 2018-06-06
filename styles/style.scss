@@ -38,14 +38,11 @@ button:hover {
 }
 
 #background {
-/* 	margin: -30px; */
 	transform: scale(1.04);
 	overflow: hidden;
 	height: 100vh;
 	width: 100vw;
-  // background-color: blue;
 	background-image: url('../img/background-small.jpg');
-  // background-image: url('/img/background-small.jpg');
 	background-size: cover;
 	filter: blur(8px);
 	opacity: .8;

@@ -38,23 +38,13 @@ const whereWeLandingBoys = () => {
 	let answer = '';
   console.log('\n', '\n');
   let randNum = Math.floor(Math.random()* (landingSites.length - 1));
-	// let randNum = 6;
-  if (randNum === 6) {
-		return "You're Fucked. Land at " + landingSites[randNum];
-    console.log("You're Fucked. Land at", landingSites[randNum])
-  } else {
-		return landingSites[randNum];
-		console.log('Land at', landingSites[randNum]);
-	}
-  console.log('\n', '\n');
+  if (randNum === 6) return "You're Fucked. Land at " + landingSites[randNum];
+   else return landingSites[randNum];
 }
-
-// whereWeLandingBoys();
 
 const result = () => {
 	const landing = whereWeLandingBoys();
 	document.getElementById('results').innerHTML = landing;
-	// document.getElementById('results').innerHTML = '<h3>landing</h3>';
 	document.getElementById('results').style.display = "flex";
 }
 

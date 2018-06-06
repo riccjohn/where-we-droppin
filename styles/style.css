@@ -34,7 +34,6 @@ button:hover {
   padding: 20px; }
 
 #background {
-  /* 	margin: -30px; */
   transform: scale(1.04);
   overflow: hidden;
   height: 100vh;
