@@ -30,7 +30,7 @@ const landingSites = [
   'Missile Silo',
   'Tilted Towers',
   'Haunted House',
-  'Super Hideout',
+  'Superhero Hideout',
   'Loot Lake North',
   'Container Yard'
 ]

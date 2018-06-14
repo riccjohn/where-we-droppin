@@ -2,7 +2,7 @@ const landingSites = [
   'Junk Junction',
   'Haunted Hills',
   'Pleasant Park',
-  'North Pleasant',
+  'Large Soccer Stadium',
   'Motel',
   'Anarchy Acres',
   'Loot Lake House',
@@ -30,7 +30,7 @@ const landingSites = [
   'Missile Silo',
   'Tilted Towers',
   'Haunted House',
-  'Super Hideout',
+  'Superhero Hideout',
   'Loot Lake North',
   'Container Yard'
 ]
