@@ -36,9 +36,8 @@ const landingSites = [
 ]
 
 const whereWeLandingBoys = () => {
-	let answer = '';
-  console.log('\n', '\n');
   let randNum = Math.floor(Math.random()* (landingSites.length - 1));
+  return landingSites[randNum];
 }
 
 const result = () => {
